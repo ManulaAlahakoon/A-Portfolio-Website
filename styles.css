@@ -1,0 +1,121 @@
+body {
+
+    background-color: black;
+    color: white;
+
+}
+
+#welcome-section {
+
+    height: 100vh;
+    text-align: center;
+
+}
+
+#welcome-section .my-pic {
+
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 150px;
+
+}
+
+#navbar {
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+
+
+    background-color: white;
+    width: 100%;
+    height: 70px;
+
+
+
+}
+
+nav a {
+
+
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+
+}
+
+#projects {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#contact #profiles {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+
+}
+
+#contact i {
+
+    font-size: 100px;
+
+
+}
+
+footer {
+
+    height: 50px;
+
+}
+
+footer p {
+
+    text-align: center;
+
+
+}
+
+@media only screen and (max-width:500px) {
+
+    nav {
+
+        position: fixed;
+        top: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 80px;
+
+
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
